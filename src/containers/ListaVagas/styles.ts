@@ -1,3 +1,6 @@
+import styled from "styled-components";
+
+export const Lista = styled.div`
 .vagas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -11,3 +14,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+`
+
+export const Vaga = styled.prototype`
+
+`

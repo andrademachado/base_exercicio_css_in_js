@@ -1,4 +1,7 @@
-.form {
+import styled from "styled-components";
+
+export const Form = styled.form`
+    .form {
   display: grid;
   grid-template-columns: 1fr auto;
   background-color: var(--cor-secundaria);
@@ -22,3 +25,6 @@
   padding: 0 16px;
   outline-color: var(--cor-principal);
 }
+`
+
+

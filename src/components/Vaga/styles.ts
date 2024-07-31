@@ -1,4 +1,7 @@
-.vaga {
+import styled from "styled-components"
+
+export const Vagas = styled.li`
+  .vaga {
   border: 1px solid var(--cor-principal);
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
@@ -40,3 +43,6 @@
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
 }
+`
+
+

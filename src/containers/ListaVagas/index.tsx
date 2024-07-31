@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import FormVagas from '../../components/FormVagas'
-
-import Vaga from '../../components/Vaga'
-
+import { Lista, Vaga } from './styles'
 import styles from './ListaVagas.module.css'
+import { Vagas }   from '../../components/Vaga/styles'
+
+
 
 type Vaga = {
   id: string
@@ -97,7 +98,7 @@ const ListaVagas = () => {
   )
 
   return (
-    <div>
+    <Lista>
       <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
       <ul className={styles.vagas}>
         {vagasFiltradas.map((vag) => (
@@ -113,7 +114,7 @@ const ListaVagas = () => {
           />
         ))}
       </ul>
-    </div>
+    </Lista>
   )
 }
 

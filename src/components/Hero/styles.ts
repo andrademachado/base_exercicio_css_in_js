@@ -1,4 +1,7 @@
-.form {
+import styled from "styled-components";
+
+export const  Heroi = styled.form`
+    .form {
   height: 360px;
   width: 100%;
   background-image: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_1280.jpg');
@@ -39,3 +42,5 @@
     font-size: 32px;
   }
 }
+`
+
